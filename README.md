@@ -1,8 +1,14 @@
 # LEOS Radio PCB
 
-![3D render of the LEOS Radio PCB](screenshots/3D.png)
+![3D render of the Radio PCB](Screenshots/3D.png)
+![Layout1](Screenshots/Layout1.png)
+![Layout2](Screenshots/Layout2.png)
+![Layout3](Screenshots/Layout3.png)
+![Layout4](Screenshots/Layout4.png)
+![Layout5](Screenshots/Layout5.png)
+![Layout6](Screenshots/Layout6.png)
 
-This repository contains the KiCad schematic and PCB layout for the LEOS Radio PCB made fall 2026. The board integrates a Raspberry Pi Pico, an E22-900M30S LoRa radio module, and a CAN-FD interface.
+This repository contains the KiCad schematic and PCB layout for the Radio PCB made fall 2026 for the Lightning at the Edge of Space research project. The board integrates a Raspberry Pi Pico, an E22-900M30S LoRa radio module, and a CAN-FD interface.
 
 The Raspberry Pi Pico communicates with the radio module through SPI1 and the MCP2518FD CAN-FD controller through SPI0. An MCP2562FD transceiver connects the CAN controller to the LEOS CAN bus. An SMA connector provides the connection for an external antenna.
 
